@@ -1,11 +1,9 @@
 package eci.seguros.webs;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-@EnableAutoConfiguration
+@SpringBootApplication // ya incluye @EnableAutoConfiguration
 public class Aplicacion {
 
 	public static void main(String[] args) {
