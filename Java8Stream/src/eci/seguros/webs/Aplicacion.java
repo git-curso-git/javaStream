@@ -1,9 +1,15 @@
 package eci.seguros.webs;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class Aplicacion {
 
 	public static void main(String[] args) {
 		System.out.format("%-20s : %06x\n", "Hola, soy yo", 155);
-		System.out.format("%20s y a continuación un número %d\n", "Hola, soy yo", 155);
+		System.out.format("%20s y a continuaciï¿½n un nï¿½mero %d\n", "Hola, soy yo", 155);
+		
+		SpringApplication.run(Aplicacion.class, args);
 	}
 }
