@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SiniestroController {
 
-	private static final Logger logger = LoggerFactory.getLogger(SiniestroController.class);
+	private static final Logger logger = LoggerFactory.getLogger(Aplicacion.class);
 	
     @RequestMapping("/list")
     public String listSiniestro() {
