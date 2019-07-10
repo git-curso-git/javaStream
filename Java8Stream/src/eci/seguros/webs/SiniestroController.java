@@ -12,8 +12,15 @@ public class SiniestroController {
 	
     @RequestMapping("/list")
     public String listSiniestro() {
-    	logger.trace("Endpoint listSiniestro");
+    	logger.info("Endpoint listSiniestro");
 		String strResult = "Hola, soy el endpoint listSiniestro desde la url 'list'!";
+        return strResult;
+    }
+
+    @RequestMapping("/info")
+    public String infoSiniestro() {
+    	logger.info("Endpoint infoSiniestro");
+		String strResult = "Hola, soy el endpoint infoSiniestro desde la url 'info'!";
         return strResult;
     }
 
